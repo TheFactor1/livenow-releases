@@ -4,7 +4,14 @@
 
 > Live Now doesn't provide any streams or channels. Bring your own TV provider login.
 
-<!-- PROMO VIDEO GOES HERE -->
+<p>
+  <img src="screenshots/01-games-list.png" width="24%" alt="Tonight's games as tickets, live games first">
+  <img src="screenshots/02-player-feed.png" width="24%" alt="The player with the home and away feed picker">
+  <img src="screenshots/04-mini-player.png" width="24%" alt="The mini player keeps the game playing while you browse">
+  <img src="screenshots/05-alerts.png" width="24%" alt="A live score alert on the lock screen">
+</p>
+
+<sub>Screenshots use the app's demo mode: made-up teams and test videos.</sub>
 
 ## What it does
 
