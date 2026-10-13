@@ -4,23 +4,57 @@
 
 > Live Now doesn't provide any streams or channels. Bring your own TV provider login.
 
-<p>
-  <img src="screenshots/01-games-list.png" width="24%" alt="Tonight's games as tickets, live games first">
-  <img src="screenshots/02-player-feed.png" width="24%" alt="The player with the home and away feed picker">
-  <img src="screenshots/04-mini-player.png" width="24%" alt="The mini player keeps the game playing while you browse">
-  <img src="screenshots/05-alerts.png" width="24%" alt="A live score alert on the lock screen">
-</p>
-
 <sub>Screenshots use the app's demo mode: made-up teams and test videos.</sub>
 
-## What it does
+## Tonight, first
 
-- **Tonight, first.** Every game is a ticket, and live ones sit on top. No scrolling through 1,000 channels.
-- **No spoilers.** The game you're watching never shows its score, in the player or the mini player.
-- **Auto feed.** It picks the home or away broadcast for you. Switch with one tap.
-- **Score card.** Hold the player and a box score prints, kept in sync with your stream.
-- **Keep watching.** Swipe the player down and the game follows you around the app.
-- **Highlights.** Recaps for finished games, in the app.
+<img src="screenshots/01-games-list.png" align="right" width="230" alt="Tonight's games as tickets, live games first">
+
+Open the app and you see tonight's games, not a channel list. Each game is a ticket.
+
+- **Live games sit on top**, with the score and the period, like "3RD" or "2ND INT".
+- **Games still to come** show their start time and a countdown on the ticket stub.
+- **Tap WATCH** and Live Now finds the right channel on your TV service and starts the game.
+- Filter by league, or jump to the teams you follow.
+
+<br clear="right">
+
+## The right broadcast, without spoilers
+
+<img src="screenshots/02-player-feed.png" align="right" width="230" alt="The player with the home and away feed picker">
+
+Most games air on more than one feed. Live Now picks one for you.
+
+- **Auto feed** plays the home broadcast by default. One tap on the feed line opens the picker: Auto, Home or Away.
+- **No spoilers.** The game you're watching never shows its score, in the player or the mini player. The other games below keep their scores.
+- **Score card.** Hold the player and a box score prints out, held back to match your stream so it can't get ahead of what you see.
+- **Highlights.** Finished games link to their recaps.
+
+<br clear="right">
+
+## Keep watching
+
+<img src="screenshots/04-mini-player.png" align="right" width="230" alt="The mini player keeps the game playing while you browse">
+
+Swipe the player down and the game shrinks into a mini player at the bottom of the screen.
+
+- Scroll the games list, check other scores or open settings while the game keeps playing.
+- Tap the mini player to go back to full size, or close it with the ✕.
+- Swipe up in the player for full screen. Pinch to fit or fill, and slide the edges for volume and brightness.
+
+<br clear="right">
+
+## Know the moment
+
+<img src="screenshots/05-alerts.png" align="right" width="230" alt="A live score alert on the lock screen">
+
+Follow your teams and Live Now keeps you posted.
+
+- **Live score updates** on the lock screen while your team plays.
+- **Hide game** right from the notification if you'd rather not know.
+- On the GitHub build, score alerts can also be pushed to every phone in your household.
+
+<br clear="right">
 
 ## Two builds
 
