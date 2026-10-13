@@ -8,7 +8,7 @@
 
 ## Tonight, first
 
-<img src="screenshots/01-games-list.png" align="right" width="230" alt="Tonight's games as tickets, live games first">
+<p align="center"><img src="screenshots/01-games-list.png" width="320" alt="Tonight's games as tickets, live games first"></p>
 
 Open the app and you see tonight's games, not a channel list. Each game is a ticket.
 
@@ -17,11 +17,10 @@ Open the app and you see tonight's games, not a channel list. Each game is a tic
 - **Tap WATCH** and Live Now finds the right channel on your TV service and starts the game.
 - Filter by league, or jump to the teams you follow.
 
-<br clear="right">
 
 ## The right broadcast, without spoilers
 
-<img src="screenshots/02-player-feed.png" align="right" width="230" alt="The player with the home and away feed picker">
+<p align="center"><img src="screenshots/02-player-feed.png" width="320" alt="The player with the home and away feed picker"></p>
 
 Most games air on more than one feed. Live Now picks one for you.
 
@@ -30,11 +29,10 @@ Most games air on more than one feed. Live Now picks one for you.
 - **Score card.** Hold the player and a box score prints out, held back to match your stream so it can't get ahead of what you see.
 - **Highlights.** Finished games link to their recaps.
 
-<br clear="right">
 
 ## Keep watching
 
-<img src="screenshots/04-mini-player.png" align="right" width="230" alt="The mini player keeps the game playing while you browse">
+<p align="center"><img src="screenshots/04-mini-player.png" width="320" alt="The mini player keeps the game playing while you browse"></p>
 
 Swipe the player down and the game shrinks into a mini player at the bottom of the screen.
 
@@ -42,11 +40,10 @@ Swipe the player down and the game shrinks into a mini player at the bottom of t
 - Tap the mini player to go back to full size, or close it with the ✕.
 - Swipe up in the player for full screen. Pinch to fit or fill, and slide the edges for volume and brightness.
 
-<br clear="right">
 
 ## Know the moment
 
-<img src="screenshots/05-alerts.png" align="right" width="230" alt="A live score alert on the lock screen">
+<p align="center"><img src="screenshots/05-alerts.png" width="320" alt="A live score alert on the lock screen"></p>
 
 Follow your teams and Live Now keeps you posted.
 
@@ -54,7 +51,6 @@ Follow your teams and Live Now keeps you posted.
 - **Hide game** right from the notification if you'd rather not know.
 - On the GitHub build, score alerts can also be pushed to every phone in your household.
 
-<br clear="right">
 
 ## Two builds
 
