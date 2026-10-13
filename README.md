@@ -78,6 +78,25 @@ After that, the app updates itself. Each release also has a `version.json` with 
 - **Mercury**, a second look for Live Now.
 - **M3U playlist** sign-in.
 
+## Permissions
+
+What Live Now asks Android for, and why. It never asks for your location, contacts, photos, camera or microphone.
+
+**Both builds**
+- **Internet** and **network state**: load games and scores, play streams, and pick a quality that suits Wi-Fi or mobile data.
+- **Notifications**: game alerts and the live score on your lock screen. Android asks you first.
+- **Live score in the status bar** (promoted notifications, Android 16): shows the score chip at the top of the screen.
+- **Display over other apps**: the floating scoreboard over other apps. Android asks you the first time you use it.
+- **Run in the foreground** and **keep awake**: keep a followed game's score updating while the screen is off. It stops when the game ends.
+- **Run at startup**: set your game alerts and morning briefing again after the phone restarts or the time zone changes.
+- **Alarms and reminders**: send the morning briefing and game alerts at the minute you chose. On the Play build you allow this yourself in Android's settings; without it, alerts can arrive a little late.
+
+**GitHub build only**
+- **Install apps**: the built-in updater installs new versions. Android asks you first.
+- **Push messages** (Firebase Cloud Messaging): score alerts from your household's own server.
+- **Media playback in the background**: game radio in the car (Android Auto) and with the screen off.
+- **TV channels and programs**: adds games to the Android TV home screen's "Watch Next" row.
+
 ## Privacy
 
 Live Now has no accounts, no ads and no analytics. Read the [privacy policy](https://thefactor1.github.io/livenow-releases/privacy/).
