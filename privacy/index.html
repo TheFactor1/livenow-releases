@@ -19,7 +19,7 @@
 <body>
 <main>
 <h1>Live Now privacy policy</h1>
-<p class="meta">Live Now is made by Factor. Effective October 10, 2026.</p>
+<p class="meta">Live Now is made by Factor. Effective October 13, 2026.</p>
 
 <p>Live Now is a sports app that shows live games and scores and plays streams from a TV service you already subscribe to. It does not include, sell or recommend any streaming service.</p>
 
@@ -29,20 +29,27 @@
 <h2>What stays on your phone</h2>
 <ul>
   <li><strong>Your provider login</strong> (server address, username and password). It is stored encrypted with a key held in Android's Keystore, used only to connect to your provider, and left out of backups and device transfers.</li>
+  <li><strong>Your playlist and guide links</strong>, if you sign in with an M3U playlist instead (from version 0.63.12). Stored encrypted the same way, used only to connect to your provider, and left out of backups and device transfers.</li>
   <li><strong>Your teams, followed games and settings.</strong> Stored on the phone only.</li>
   <li><strong>Stream sync.</strong> Text recognition reads a broadcast's scoreboard on your phone, through Google Play services. Images are not sent anywhere by Live Now.</li>
 </ul>
 
 <h2>Who the app talks to</h2>
 <ul>
-  <li><strong>Your TV service</strong>, using the login you entered, to list channels and play streams.</li>
+  <li><strong>Your TV service</strong>, using the login you entered, to list channels and play streams. Live Now connects over https when your TV service supports it. Many services only offer plain http, and then the login is sent the way the service requires.</li>
   <li><strong>Public sports data services</strong> (such as MLB, NHL and ESPN), for schedules, scores, team lists and logos. These requests carry no personal information. Like any web request, the service sees your IP address.</li>
-  <li><strong>YouTube</strong>, for highlight videos, through the YouTube embedded player. By watching highlights you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> applies to that player.</li>
+  <li><strong>YouTube</strong>, for highlight lists, thumbnails and videos. Highlights play in YouTube's embedded player. By watching highlights you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> applies.</li>
   <li><strong>Demo mode</strong> plays freely licensed test videos from public video test servers. Like any web request, those servers see your IP address.</li>
 </ul>
 
+<h2>Permissions</h2>
+<p>Live Now asks Android only for what alerts, the live score and playback need. It never asks for your location, contacts, photos, camera or microphone. The full list, with what each permission is for, is in the <a href="https://github.com/TheFactor1/livenow-releases#permissions">README</a>.</p>
+
 <h2>Notifications</h2>
 <p>If you turn on game alerts, the app schedules them on your phone. Nothing is sent to us.</p>
+
+<h2>Home server version</h2>
+<p>A separate version of Live Now, not on Google Play, can link to a household's own home server. In that version, crash and playback reports (app version, phone model and the error), the alerts token and the game being watched go to that household's server only. They never come to us.</p>
 
 <h2>Children</h2>
 <p>Live Now is not directed at children under 13.</p>
